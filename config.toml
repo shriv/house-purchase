@@ -1,5 +1,5 @@
 [build] 
-  publish = "public"
+  publish = "_book"
   command = "hugo"
 
 [context.production.environment]
@@ -13,4 +13,6 @@
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.76.3"
 
-baseURL = "https://house-purchase.netlify.app"
+baseurl = "/"
+languageCode = "en-uk"
+title = "Buying a house in Wellington"
