@@ -1,5 +1,5 @@
 [build] 
-  publish = "_book"
+  publish = "public"
   command = "hugo"
 
 [context.production.environment]
