@@ -12,3 +12,5 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.76.3"
+
+baseURL = "https://house-purchase.netlify.app"
